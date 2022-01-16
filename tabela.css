@@ -1,0 +1,187 @@
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#0059b3;
+  color: white;
+}
+
+table{
+  border:"1";
+  width:50%;
+}
+
+
+ h3{
+    text-align: center;
+    font-family:Franklin Gothic Heavy;
+  
+  }
+
+
+input[type=text],input[type=number]{
+  width: 69%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit], input[type=reset] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #ff7733; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+
+.form{background-color:#6699ff;}
+
+
+
+/* tabela 2*/
+
+#tabela2 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 33%;
+}
+
+#tabela2 td, #tabela2 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabela2 tr:nth-child(even){background-color:#f2f2f2;}
+
+#tabela2 tr:hover {background-color: #ddd;}
+
+#tabela2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#ff7733;
+  color: white;
+}
+
+
+/* tabela 3*/
+
+#tabela3 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tabela3 td, #tabela3 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabela3 tr:nth-child(even){background-color:#f2f2f2;}
+
+#tabela3 tr:hover {background-color: #ddd;}
+
+#tabela3 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#ff3300;
+  color: white;
+}
+
+
+/* tabela 4*/
+
+#tabela4 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tabela4 td, #tabela4 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabela4 tr:nth-child(even){background-color:#f2f2f2;}
+
+#tabela4 tr:hover {background-color: #ddd;}
+
+#tabela4 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#005ce6;
+  color: white;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+ /* background-color:#f1f1f1;*/
+ background-color: #ccccff; 
+  margin: 0;
+}
+
+
+/* Create three equal columns that floats next to each other */
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
